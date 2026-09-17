@@ -18,7 +18,7 @@ public class ApplePicker : MonoBehaviour {
     // Rate at which Apples will be instantiated
     public float        secondsBetweenAppleDrops = 1f;
 
-    void Start () {
+   void Start () {
         // Dropping apples every second
         InvokeRepeating( "DropApple", 2f, secondsBetweenAppleDrops );
     }
@@ -33,7 +33,7 @@ public class ApplePicker : MonoBehaviour {
         Vector3 pos = transform.position;
         pos.x += speed * Time.deltaTime;
         transform.position = pos;
-
+        
         // Changing Direction
         if ( pos.x < -leftAndRightEdge ) {
             speed = Mathf.Abs(speed);  // Move right
@@ -46,8 +46,8 @@ public class ApplePicker : MonoBehaviour {
     // Changing Direction Randomly
     if ( Random.value < chanceToChangeDirections ) {
         speed *= -1;  // Change direction
+        }
     }
-}
 }
 
 
