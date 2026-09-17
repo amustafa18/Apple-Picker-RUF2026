@@ -10,9 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6764972999333267803}
   - component: {fileID: 3891385881577103329}
-  - component: {fileID: -1476293583668572828}
-  - component: {fileID: 3578209343272489218}
-  - component: {fileID: 3453214294426813060}
+  - component: {fileID: 3856638000404597572}
   m_Layer: 8
   m_Name: AppleTree
   m_TagString: Untagged
@@ -64,7 +62,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-1476293583668572828
+--- !u!114 &3856638000404597572
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -76,41 +74,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81c093aef9bfd4e399bddaadfcffac50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ApplePicker
-  applePrefab: {fileID: 0}
-  speed: 1
-  leftAndRightEdge: 10
-  chanceToChangeDirections: 0.1
-  secondsBetweenAppleDrops: 1
---- !u!114 &3578209343272489218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1158349755368432111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81c093aef9bfd4e399bddaadfcffac50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ApplePicker
-  applePrefab: {fileID: 0}
-  speed: 10
-  leftAndRightEdge: 20
-  chanceToChangeDirections: 0.1
-  secondsBetweenAppleDrops: 1
---- !u!114 &3453214294426813060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1158349755368432111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81c093aef9bfd4e399bddaadfcffac50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ApplePicker
-  applePrefab: {fileID: 0}
+  applePrefab: {fileID: 3867044806962380586, guid: 017a974c7228347bf87d28ef76b38c72, type: 3}
   speed: 10
   leftAndRightEdge: 20
   chanceToChangeDirections: 0.1
