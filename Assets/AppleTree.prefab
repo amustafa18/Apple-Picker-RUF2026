@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6764972999333267803}
   - component: {fileID: 3891385881577103329}
-  - component: {fileID: 3856638000404597572}
+  - component: {fileID: 192638347421247905}
   m_Layer: 8
   m_Name: AppleTree
   m_TagString: Untagged
@@ -62,7 +62,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3856638000404597572
+--- !u!114 &192638347421247905
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

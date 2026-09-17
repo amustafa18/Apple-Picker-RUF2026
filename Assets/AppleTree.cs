@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class ApplePicker : MonoBehaviour {
+public class AppleTree : MonoBehaviour {
 
     // Prefab for instantiating apples
     public GameObject   applePrefab;
