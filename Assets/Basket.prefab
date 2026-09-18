@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5414078574117641404}
   - component: {fileID: 381202933432509902}
   - component: {fileID: 339460783079198174}
-  - component: {fileID: 7990613776446128174}
+  - component: {fileID: 1899537240671333623}
   m_Layer: 10
   m_Name: Basket
   m_TagString: Untagged
@@ -113,7 +113,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7990613776446128174
+--- !u!114 &1899537240671333623
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
