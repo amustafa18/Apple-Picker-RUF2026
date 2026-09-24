@@ -2,6 +2,14 @@ using UnityEngine;
 using System.Collections;
 
 public class Basket : MonoBehaviour {
+    public ScoreCounter scoreCounter;                                    // a
+    
+         void Start() {
+             // Find a GameObject named ScoreCounter in the Scene Hierarchy
+             GameObject scoreGO = GameObject.Find( "ScoreCounter" );         // b
+             // Get the ScoreCounter (Script) component of scoreGO
+             scoreCounter = scoreGO.GetComponent<ScoreCounter>();            // c
+         }
 
     void Update () {
         // Get the current screen position of the mouse from Input
@@ -24,6 +32,8 @@ public class Basket : MonoBehaviour {
         GameObject collidedWith = coll.gameObject;                          // 3
         if ( collidedWith.tag == "Apple" ) {                                // 4
             Destroy( collidedWith );
+            scoreCounter.score += 100; 
+            HighScore.TRY_SET_HIGH_SCORE( scoreCounter.score );        
         }
     }
 }

@@ -263,10 +263,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 224741149}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 461be4e319c644226a6cdd4ea4e4982c, type: 3}
+  m_Script: {fileID: 11500000, guid: c8c55d9ba01ae470f9d9cbf953b924d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  scoreCounterTextObject: {fileID: 0}
   score: 0
 --- !u!114 &224741152
 MonoBehaviour:
@@ -281,7 +280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -291,7 +290,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 36
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 230
@@ -789,11 +788,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1722476651}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 461be4e319c644226a6cdd4ea4e4982c, type: 3}
+  m_Script: {fileID: 11500000, guid: d3cc1802be4834a87975dd43cec0da1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  scoreCounterTextObject: {fileID: 0}
-  score: 0
+  resetHighScoreNow: 0
 --- !u!1001 &83419531413425378
 PrefabInstance:
   m_ObjectHideFlags: 0
